@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f45b16">
+  <meta name="description" content="A small showcase of motion and interaction used across Eid Kusweje's portfolio.">
+  <title>Animations | Eid Kusweje</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="animations.html">
+  <header class="navbar">
+    <a href="index.html" class="logo" aria-label="Eid Kusweje home">E<span>J</span></a>
+    <nav id="nav-menu" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="animations.html">Animations</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="menu-btn" class="menu-btn" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow reveal">01 / MOTION STUDIES</p>
+      <h1 class="display-heading reveal">A LITTLE<br><span>MOTION.</span></h1>
+      <p class="page-hero-copy reveal">A few of the lightweight animations that bring the portfolio to life—while respecting reduced-motion preferences.</p>
+    </section>
+
+    <section class="section animation-section">
+      <div class="section-kicker reveal"><span>02 / ANIMATION PLAYGROUND</span><span>CSS-POWERED</span></div>
+      <div class="section-heading-row reveal">
+        <h2 class="display-heading">SUBTLE BY<br><span>DESIGN.</span></h2>
+        <p>Motion is used to guide attention, add personality, and keep the experience feeling responsive.</p>
+      </div>
+      <div class="animation-grid">
+        <article class="animation-card reveal">
+          <div class="animation-stage pulse-stage"><span class="pulse-dot"></span></div>
+          <p class="animation-label">01 / PULSE</p>
+          <h3>A gentle signal</h3>
+          <p>A soft repeating pulse marks availability without demanding attention.</p>
+        </article>
+        <article class="animation-card reveal">
+          <div class="animation-stage orbit-stage"><span class="orbit-sun">✳</span><span class="orbit-ring"></span></div>
+          <p class="animation-label">02 / ORBIT</p>
+          <h3>Slow rotation</h3>
+          <p>Rotating accents add a little movement to the portrait and project artwork.</p>
+        </article>
+        <article class="animation-card reveal">
+          <div class="animation-stage rise-stage"><span>BUILD<br>WITH<br>CARE.</span></div>
+          <p class="animation-label">03 / ARRIVAL</p>
+          <h3>Content reveal</h3>
+          <p>Sections ease into view as you browse, helping the page feel connected.</p>
+        </article>
+      </div>
+      <div class="page-cta reveal"><p>See how motion is used alongside real projects.</p><a href="projects.html" class="btn">Browse my projects <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="index.html" class="logo" aria-label="Back to home">E<span>J</span></a>
+    <p>© <span class="year"></span> Eid Kusweje <span class="footer-divider">·</span> Made with curiosity in Malawi.</p>
+    <a href="about.html" class="back-top">ABOUT ME ↗</a>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+PERSONAL PORTFOLIO WEBSITE
+Computer Science Student - DMI University, Mangochi Campus
+
+HOW TO OPEN:
+Double-click index.html to open it in any web browser.
+
+HOW TO CUSTOMIZE:
+1. Replace "Your Name" in index.html with your real name.
+2. Add your photo to the images folder and name it profile.jpg.
+3. Update your email, phone number, LinkedIn and GitHub links.
+4. Replace the example projects with your own projects.
+5. Change youremail@gmail.com in js/script.js.
+6. Adjust skill percentages to match your level.
